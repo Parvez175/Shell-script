@@ -1,0 +1,45 @@
+#how to define an array
+
+
+myarray=(0 20 90.8 hello "aageye bencho!!")
+
+#how to print the arrays 
+
+echo "The value 1st index is ${myarray[0]}"
+
+
+#how to get values from array
+
+echo "${myarray[0]}"
+
+echo "${myarray[1]}"
+
+#legth of an array 
+
+ ${#myarray[*]}
+
+* represents all
+
+output: The values in myarray are 0 20 90.8 hello agaye bencho!!
+
+
+#how to get the specific values 
+
+echo "${myarray[*]:1:2}"
+
+ :1 represents the intial index 
+
+ :2 represents how many values 
+
+
+#how to update new values in array
+
+myarray+=(New 2 3)
+
+echo "values of new array are $(myarray[*]}"
+
+
+
+
+
+
