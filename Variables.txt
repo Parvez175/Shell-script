@@ -18,7 +18,13 @@ example :
 
  	echo "My name is $name and age is $age"
 
-
 output : My name is Parvez and age is 22 
 
-	
+
+#variables to store output of the command
+
+HOSTNAME = $(hostname)
+echo "Name of the machine is $HOSTNAME"
+
+output : Name of the machine is Kali
+
