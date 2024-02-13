@@ -1,0 +1,15 @@
+#how to add a comment in scripts
+
+single-line comment using "#"
+
+#this is a single-line comment
+
+for multiline comment 
+
+<<comment
+....
+
+your comment here
+...
+
+comment
