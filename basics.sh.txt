@@ -1,0 +1,9 @@
+#!/bin/bash
+
+#The above line represents the Shebang.
+
+#The shebang line tells the operating system which interpreter to use to parse the remainder of a file or a script
+
+echo "Agaye Bencho!!!!"
+
+#Whatever you write after the echo command it will print
