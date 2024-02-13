@@ -7,3 +7,13 @@
 echo "Agaye Bencho!!!!"
 
 #Whatever you write after the echo command it will print
+
+#How to run a script 
+
+#Make sure script has execute permission "rwx"
+
+1 : ./script.sh
+
+2 : /path/script.sh
+
+3 : bash scriptname.sh
