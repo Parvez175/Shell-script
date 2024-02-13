@@ -1,0 +1,24 @@
+#How to assign a variable
+
+syntax : 
+
+        VAR_NAME = value
+	
+	VAR_NAME = $(hostname)
+
+
+	echo $VAR_NAME
+
+
+example :
+
+	name = "Parvez"
+
+	age = 22
+
+ 	echo "My name is $name and age is $age"
+
+
+output : My name is Parvez and age is 22 
+
+	
