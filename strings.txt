@@ -1,0 +1,39 @@
+#How to find the length of a string
+
+strlen = "hey buddy how are you?"
+
+echo "the length of a string is $strlen"
+
+output - 22 
+
+#To write a string in Uppercase 
+
+echo "String in uppercase are ${strlen^^}"
+
+#To write a string in lowercase
+
+echo "String in uppercase are ${strlen,,}"
+
+#Replace the strings by making a new variable and storing it.
+
+newstrlen= ${strlen/buddy/Parvez}
+
+buddy - the word you want to replace 
+
+Parvez - the new word you want to add
+
+#slice operation in string 
+
+slice = ${strlen:4:8}
+
+4 - beginning index
+
+8 - how many values after the beginning index
+
+output - buddy
+
+
+
+
+ 
+
